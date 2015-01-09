@@ -28,6 +28,7 @@
 .site-nav {
     float: right;
     line-height: 56px;
+    margin-top: 42px;
 
     .menu-icon {
         display: none;
@@ -51,6 +52,7 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
+        margin-top: 0px;
 
         .menu-icon {
             display: block;
