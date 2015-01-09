@@ -8,6 +8,7 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    background: $brand-color;
 }
 
 .site-title {
@@ -27,13 +28,14 @@
 .site-nav {
     float: right;
     line-height: 56px;
+    margin-top: 42px;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: $brand-color-2;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -50,6 +52,11 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
+        margin-top: 0px;
+
+        .page-link {
+            color: $text-color;
+        }
 
         .menu-icon {
             display: block;
