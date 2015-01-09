@@ -1,1 +1,32 @@
-Temporary placeholder
+---
+layout: default
+---
+
+<div class="home">
+
+  <h2 class="page-heading">Why we do this</h2>
+  <p>WordPress has PHP 5.2.4 as the <a href="https://wordpress.org/about/requirements/">minimum required version</a>. This is a version that is unsupported since early 2011. The PHP 5.3.* versions are unsupported since August 2014 as well. This leaves these versions as potentially insecure. PHP.net lists <a href="http://php.net/eol.php">all unsupported versions</a>.</p>
+  <p>The developers of the affiliated plugins no longer want to support these old versions of PHP.</p>
+
+  <h2 class="page-heading">Available PHP versions</h2>
+  <p>On the <a href="http://phpversions.info/">phpversions.info</a> website you can find an overview of hosting companies and their available PHP versions. Most hosts offer more recent versions of PHP as well, but they will not update your hosting package automatically.</p>
+
+  {% if site.posts == blank %}
+  <h2 class="page-heading">Posts</h2>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  {% endif %}
+
+</div>
