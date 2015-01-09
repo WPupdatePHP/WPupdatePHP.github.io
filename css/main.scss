@@ -53,3 +53,13 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.home .highlight {
+  background: $brand-color-2;
+  padding: 30px;
+  margin: 0 -30px 15px -30px;
+
+  @include media-query($on-laptop) {
+    margin: 0 -15px 15px -15px;
+  }
+}
