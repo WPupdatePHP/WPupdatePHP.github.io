@@ -8,6 +8,11 @@ You probably ended up here, after seeing a message in your WordPress administrat
 
 If you saw this message, it means you are running an outdated version of PHP. You don't have to worry, even if you don't know how to update PHP or don't know what PHP is, in most cases it's really easy to update. Most hosting companies already offer more recent versions of PHP.
 
+<div class="highlight-box">
+	<h2>What is PHP?</h2>
+	<p>PHP is a scripting language that powers many websites. As any piece of software, PHP is available in different versions. Some versions are no longer supported. Unfortunately, some hosting companies run really old and potentially insecure PHP versions.</p>
+</div>
+
 ## How to update your PHP version
 The easiest way to find out how you can update your PHP version, is by [contacting your host](/contact-host). In most cases it is really easy to update and your host can do this in minutes.
 
