@@ -4,6 +4,10 @@ title: Developers
 permalink: /developers/
 ---
 
+Let's make our WordPress plugins require a more recent version of PHP. We don't want to support PHP 5.2 anymore. It's no longer supported and potentially insecure. Let's stop this.
+
+All the information you need to implement this library can be found in the [readme](https://github.com/WPupdatePHP/wp-update-php#readme).
+
 You can find the PHP library in the GitHub repository: [WPupdatePHP/wp-update-php](https://github.com/WPupdatePHP/wp-update-php).
 
 <div style="padding-bottom: 15px;">
