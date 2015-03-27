@@ -14,8 +14,8 @@ If you saw this message, it means you are running an outdated version of PHP. Yo
 </div>
 
 ## How to update your PHP version
-The easiest way to find out how you can update your PHP version, is by [contacting your host](/contact-host). In most cases it is really easy to update and your host can do this in minutes.
+The easiest way to find out how you can update your PHP version is by [contacting your host](/contact-host). In most cases it is really easy to update, and your host can do this in minutes.
 
-In some cases, your hosting company might refuse to update your PHP version for whatever reason. This is a really bad practice, but it happens. If you want to migrate your website to a new hosting company, there are plenty options available.
+In some cases, your hosting company might refuse to update your PHP version for whatever reason. This is a really bad practice, but it happens. If you want to migrate your website to a new hosting company, there are plenty of options available.
 
-On the [phpversions.info website](http://phpversions.info/) you can find an overview of hosting companies and their available PHP versions. Most hosts offer more recent versions of PHP already.
+On the [phpversions.info website](http://phpversions.info/) you can find an overview of hosting companies and their available PHP versions. Most hosts already offer more recent versions of PHP.
