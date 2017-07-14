@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-WPupdatePHP is a PHP library to be bundled with WordPress plugins to enforce users to upgrade to PHP 5.4 or higher hosting.
+WPupdatePHP is a PHP library to be bundled with WordPress plugins to enforce users to upgrade to PHP 5.6 or higher hosting.
 
 ## Why we do this
 The developers of the affiliated plugins no longer want to support these old versions of PHP.
