@@ -2,7 +2,7 @@ title: WPupdatePHP
 email: coenjacobs@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   PHP library to be bundled with WordPress plugins
-  to enforce users to upgrade to PHP 5.4 or higher hosting.
+  to enforce users to upgrade to hosting on supported PHP versions.
 baseurl: ""
 url: "http://www.wpupdatephp.com"
 twitter_username: WPupdatePHP
